@@ -30,11 +30,7 @@
   }
   
   .form-content-left {
-    background: linear-gradient(
-      90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
-    );
+    background: white;
     border-radius: 10px 0 0 10px;
     position: relative;
   }
@@ -94,6 +90,8 @@
   .form-inputs {
     width: 80%;
   }
+
+  /* error message */
   
   .form-inputs p {
     font-size: 0.8rem;
@@ -127,24 +125,16 @@
     height: 50px;
     margin-top: 10px;
     border-radius: 2px;
-    background: linear-gradient(
-      90deg,
-      rgb(39, 176, 255) 0%,
-      rgb(0, 232, 236) 100%
-    );
+    color: black;
+    background:rgb(0, 184, 0) ;
     outline: none;
     border: none;
-    color: #fff;
     font-size: 1rem;
   }
   
   .form-input-btn:hover {
     cursor: pointer;
-    background: linear-gradient(
-      90deg,
-      rgb(39, 143, 255) 0%,
-      rgb(12, 99, 250) 100%
-    );
+    background:rgb(83, 83, 83);
     transition: all 0.4s ease-out;
   }
   
@@ -158,6 +148,6 @@
   
   .form-input-login a {
     text-decoration: none;
-    color: #27cdff;
+    color: rgb(0, 184, 0);
     font-weight: 600;
   }
